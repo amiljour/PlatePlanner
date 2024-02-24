@@ -1,5 +1,7 @@
 ### App Introduction & User Experience
 
+### USE OAUTH 2.0
+
 For the Group Meal Planner and Expense Tracker app, the user experience should be intuitive and engaging from the start. Here are some layout ideas for the app introduction phase that the engineer can develop in Figma:
 
 1. **Welcome Screen:**
