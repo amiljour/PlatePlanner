@@ -3,7 +3,7 @@ const LargeCard = (prop) => {
   const { image, heading, subText1, subText2, subText3, btn } = prop
   return (
     
-    <div className="largeCard glass">
+    <div className="largeCard glass" style={{height: "50vh"}}>
             <h2 className="m-1 text-3xl font-bold">{heading}</h2>
             <p className="text-xl mb-3">{subText1}</p>
             <img src={image} alt="Meal" style={{maxWidth: "80%", maxHeight: "70%", height: "auto", width: "auto"}} className="mb-3" />

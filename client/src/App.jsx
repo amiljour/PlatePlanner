@@ -1,8 +1,7 @@
 import './App.css'
-import { Link, Navigate, Route, Routes } from 'react-router-dom'
+import { Route, Routes } from 'react-router-dom'
 import HomeScreen from "./views/HomeScreen"
-import Login from './views/Login'
-import Register from './views/Register'
+import LoginAndRegister from './views/LoginAndRegister'
 
 function App() {
 
@@ -12,8 +11,7 @@ function App() {
         {/* Route  */}
         {/* Landing Page */}
         <Route path="/" element={<HomeScreen />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/register" element={<Register />} />
+        <Route path="/loginandregister" element={<LoginAndRegister />} />
       </Routes>
     </>
   )

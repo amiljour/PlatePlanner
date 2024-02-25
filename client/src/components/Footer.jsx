@@ -5,10 +5,10 @@ const Footer = () => {
     <div className='flex justify-between fixedFooter'>
       <p>Copyright 2024 PlatePlanner</p>
       <div>
-        <p>TEMP</p>
-        <Link to="/">Landing Page</Link>
-        <Link to="/login">Login Page</Link>
-        <Link to="/register">Register Page</Link>
+        <p>TEMP FOR DEVELOPMENT</p>
+        <Link to="/" className="mx-3">Landing Page</Link>
+        <Link to="/login" className="mx-3">Login Page</Link>
+        <Link to="/register" className="mx-3">Register Page</Link>
       </div>
       <div className="flex">
         <p className="mx-3">Privacy Policy</p>

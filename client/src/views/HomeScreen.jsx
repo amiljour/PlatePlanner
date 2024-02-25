@@ -15,7 +15,7 @@ const HomeScreen = () => {
         style={{ backgroundImage: `url(${wallpaper})` }}>
         
         {/* Header */}
-        <Header title = 'Plate Planner' btn1 = "Get Started Now!" btn2 = "Login" />
+        <Header title = 'Plate Planner' btn1 = "Idk rn" btn1Link = "/" btn2 = "Register & Login" btn2Link = "/loginandregister" />
 
         {/* Cards */}
         <div className="mt-10 flex justify-around">
