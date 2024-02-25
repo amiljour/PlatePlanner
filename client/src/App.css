@@ -1,0 +1,43 @@
+.card {
+  width: 25%; /* 1/4th of the parent element's width */
+  height: 250px; /* Fixed height of 250px */
+  border: 2px solid #000; /* Example border: 1px solid black */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow */
+  margin: 5px; /* Optional: adds some space around the card */
+  box-sizing: border-box; /* Ensures that padding and border are included in the total width and height */
+  display: flex; /* Enables the use of flexbox properties for child alignment */
+  flex-direction: column; /* Aligns children vertically */
+  align-items: center; /* Horizontally centers child elements */
+  justify-content: center; /* Vertically centers child elements */
+  padding: 10px; /* Optional: adds some space inside the card */
+  font-size: 24pt;
+  text-align: center;
+  color: green;
+  overflow: auto;
+}
+
+.largeCard{
+  width: 30%; /* 1/4th of the parent element's width */
+  height: 640px; /* Fixed height of 250px */
+  border: 2px solid #000; /* Example border: 1px solid black */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow */
+  margin: 5px; /* Optional: adds some space around the card */
+  box-sizing: border-box; /* Ensures that padding and border are included in the total width and height */
+  display: flex; /* Enables the use of flexbox properties for child alignment */
+  flex-direction: column; /* Aligns children vertically */
+  align-items: center; /* Horizontally centers child elements */
+  padding: 16px; /* Optional: adds some space inside the card */
+  text-align: center;
+  overflow: auto;
+}
+
+.fixedFooter{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #be5b4d;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
