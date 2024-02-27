@@ -10,12 +10,11 @@ import shoppingListPlaceHolder from "../assets/ShoppingListPlaceHolder.png"
 const HomeScreen = () => {
   return (
     <>
-      <div
-        className="w-full h-screen bg-no-repeat bg-cover bg-center bg-fixed"
+      <div className="w-full h-screen bg-no-repeat bg-cover bg-center bg-fixed"
         style={{ backgroundImage: `url(${wallpaper})` }}>
-        
+
         {/* Header */}
-        <Header title = 'Plate Planner' btn1 = "Idk rn" btn1Link = "/" btn2 = "Register & Login" btn2Link = "/loginandregister" />
+        <Header title = 'Plate Planner' btn1 = "" btn1Link = "/" btn2 = "Register & Login" btn2Link = "/loginandregister" />
 
         {/* Cards */}
         <div className="mt-10 flex justify-around">
@@ -38,7 +37,7 @@ const HomeScreen = () => {
             heading="Meal Planner"
             subText1="A calender to track all of your meals for this week!"
             image={weeklyPlan} 
-            subText3="Have a place to plan out your whole week of meals! And easy way to see all of your weekly meals in 1 convent place!"
+            subText2="Have a place to plan out your whole week of meals! And easy way to see all of your weekly meals in 1 convent place!"
           />
 
           {/* Large Panel 2 */}
@@ -46,6 +45,7 @@ const HomeScreen = () => {
             heading="Find a new meal!"
             subText1="Blini Pancakes"
             image={mealExample}
+            imageDescription="Pancakes"
             subText2="Severing: 4 / Calories Per Serving : 600"
             subText3="Instructions:  In a large bowl, whisk together 1/2 cup buckwheat flour, 2/3 cup all-purpose flour, 1/2 teaspoon salt, and 1 teaspoon yeast.
             Make a well in the center and pour in 1 cup warm milk, whisking until the batter is smooth.
@@ -68,6 +68,7 @@ const HomeScreen = () => {
             heading="Shopping List"
             subText1="Have your shopping list auto populate based on this weeks meals!"
             image={shoppingListPlaceHolder}
+            imageDescription="Shopping List"
           />
         </div>
 

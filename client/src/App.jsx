@@ -2,6 +2,7 @@ import './App.css'
 import { Route, Routes } from 'react-router-dom'
 import HomeScreen from "./views/HomeScreen"
 import LoginAndRegister from './views/LoginAndRegister'
+import UserDashBoard from './views/UserDashBoard'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
         {/* Landing Page */}
         <Route path="/" element={<HomeScreen />} />
         <Route path="/loginandregister" element={<LoginAndRegister />} />
+        <Route path="/user/dashboard" element={<UserDashBoard />} />
       </Routes>
     </>
   )

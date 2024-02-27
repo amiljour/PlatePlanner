@@ -1,11 +1,10 @@
-
 const Card = (prop) => {
-  const { content } = prop
+  const { content } = prop;
   return (
-    <div className="card m-5 glass">
-      <p>
-        {content}
-      </p>
+    <div className="card normalCard w-96 glass">
+      {/* <figure><img src={content} alt="car!"/></figure> */}
+        <p className="card-title">{content}</p>
+        <div className="card-actions justify-end"></div>
     </div>
   );
 };

@@ -1,17 +1,40 @@
-
 const LargeCard = (prop) => {
-  const { image, heading, subText1, subText2, subText3, btn } = prop
+  const {
+    image,
+    imageDescription,
+    heading,
+    subText1,
+    subText2,
+    subText3,
+    btn,
+  } = prop;
   return (
-    
-    <div className="largeCard glass" style={{height: "50vh"}}>
-            <h2 className="m-1 text-3xl font-bold">{heading}</h2>
-            <p className="text-xl mb-3">{subText1}</p>
-            <img src={image} alt="Meal" style={{maxWidth: "80%", maxHeight: "70%", height: "auto", width: "auto"}} className="mb-3" />
-            {subText2 && <p className="">{subText2}</p>}
-            {subText3 && <p className="m-3">{subText3}</p>}
-            {btn && <button className="btn btn-error m-3">{btn}</button>}
+    <div className="card largeCard w-96 glass">
+      <h2 className="card-title">{heading}</h2>
+        {subText1 && <p className="">{subText1}</p>}
+      
+        <img
+          src={image}
+          alt={imageDescription}
+          style={{
+            maxWidth: "70%",
+            maxHeight: "70%",
+            height: "auto",
+            width: "auto",
+          }}
+        />
+      
+      <div className="card-body">
+        {subText2 && <p className="">{subText2}</p>}
+        {subText3 && <p className="">{subText3}</p>}
+        {btn && (
+          <div className="card-actions justify-center">
+            <button className="btn btn-error">{btn}</button>
+          </div>
+        )}
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default LargeCard
+export default LargeCard;

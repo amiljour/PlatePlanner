@@ -7,8 +7,8 @@ const Footer = () => {
       <div>
         <p>TEMP FOR DEVELOPMENT</p>
         <Link to="/" className="mx-3">Landing Page</Link>
-        <Link to="/login" className="mx-3">Login Page</Link>
-        <Link to="/register" className="mx-3">Register Page</Link>
+        <Link to="/loginandregister" className="mx-3">Login & Registration Page</Link>
+        <Link to="/user/dashboard" className="mx-3">User Dashboard</Link>
       </div>
       <div className="flex">
         <p className="mx-3">Privacy Policy</p>
