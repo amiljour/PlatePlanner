@@ -48,24 +48,15 @@ export default {
     themes: [
       {
         myTheme: {
-        
-"primary": "#65a30d",
-        
-"secondary": "#facc15",
-        
-"accent": "#ef4444",
-        
-"neutral": "#65a30d",
-          
-"base-100": "#d1d5db",
-        
-"info": "#2563eb",
-        
-"success": "#7e22ce",
-        
-"warning": "#ea580c",
-        
-"error": "#b91c1c",
+            "primary": "#1e40af",
+            "secondary": "#15803d",
+            "accent": "#22c55e",
+            "neutral": "#000a03",
+            "base-100": "#fbfaff",
+            "info": "#00acff",
+            "success": "#5b21b6",
+            "warning": "#d22600",
+            "error": "#ff5063",
         },
       },
     ],
