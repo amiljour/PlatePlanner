@@ -3,8 +3,7 @@ const Card = (prop) => {
   return (
     <div className="card normalCard w-96 glass">
       {/* <figure><img src={content} alt="car!"/></figure> */}
-        <p className="card-title">{content}</p>
-        <div className="card-actions justify-end"></div>
+        <p className="card-title text-success">{content}</p>
     </div>
   );
 };
