@@ -43,7 +43,7 @@ const UserDashBoard = () => {
         <div className="" style={{ width: "35vw" }}>
 
           {/* Top Box on Left Side */}
-          <div className="flex glass p-5 mb-5 card text-success" style={{ height: "50%", overflow: 'auto' }}>
+          <div className="flex glass p-5 mb-5 card text-success" style={{ height: "53%", overflow: 'auto' }}>
             <Link to={'/'} className="text-center text-5xl font-extrabold">Shopping List</Link>
             <h3 className="text-center text-2xl mt-3 font-semibold">Week 3/5/24 - 3/9/4</h3>
             <ul className="">
@@ -68,15 +68,15 @@ const UserDashBoard = () => {
           </div>
 
           {/* Bottom Box on Left Side */}
-          <div className="glass p-5 card  text-primary" style={{ height: "33%", overflow: 'auto' }}>
+          <div className="glass p-5 card  text-primary" style={{ height: "30%", overflow: 'auto' }}>
           <Link to={'/'} className="text-center text-5xl font-extrabold">Random Recipe for Today</Link>
-            <h3 className="text-center text-2xl my-2 font-semibold">Recipe Name</h3>
-            <p className="text-center">
-              Recipe Calories and servings
+            <h3 className="text-center text-2xl my-2 font-semibold">Buttermilk Fried Chicken</h3>
+            <p className="text-center mb-5">
+              Recipe Calories per Serving: 1,261 || Servings: 8
             </p>
-            <button className="btn btn-info">
-              Button to see the fill recipe
-            </button>
+            <Link to={'/showOneRecipe'} className="btn btn-info">
+              See Full Recipe
+            </Link>
           </div>
         </div>
 
