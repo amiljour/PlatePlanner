@@ -1,8 +1,8 @@
 
 .normalCard{
   justify-content: center; 
-  width: 15vw;
-  height: 20vh; 
+  width: 20vw;
+  height: 15vh; 
   border: 2px solid #000;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
   margin: 5px; 
@@ -12,7 +12,6 @@
   align-items: center; 
   padding: 10px; 
   text-align: center;
-  color: green;
   overflow: auto;
 }
 
@@ -21,8 +20,8 @@
 }
 
 .largeCard{
-  width: 35vw;
-  height: 40vh; 
+  width: 30vw;
+  height: 60vh; 
   border: 2px solid #000;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
   margin: 5px; 
@@ -34,7 +33,6 @@
   text-align: center;
   overflow: auto;
   font-size: 10pt;
-  color: black;
 }
 .largeCard p{
   font-size: 16pt;

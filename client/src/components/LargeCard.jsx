@@ -9,9 +9,9 @@ const LargeCard = (prop) => {
     btn,
   } = prop;
   return (
-    <div className="card largeCard w-96 glass">
-      <h2 className="card-title">{heading}</h2>
-        {subText1 && <p className="">{subText1}</p>}
+    <div className="card glass largeCard text-primary">
+      <h2 className="text-5xl font-extrabold">{heading}</h2>
+        {subText1 && <p className=" font-semibold">{subText1}</p>}
         <img
           src={image}
           alt={imageDescription}
@@ -23,7 +23,7 @@ const LargeCard = (prop) => {
           }}
         />
       <div className="card-body">
-        {subText2 && <p className="">{subText2}</p>}
+        {subText2 && <p className=" font">{subText2}</p>}
         {subText3 && <p className="">{subText3}</p>}
         {btn && (
           <div className="card-actions justify-center">
