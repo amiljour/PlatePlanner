@@ -31,7 +31,7 @@ const UserDashBoard = () => {
       style={{ backgroundImage: `url(${wallpaper})` }}>
 
         {/* Header */}
-      <Header title="Welcome userFirstName to PlatePlanner!" />
+      <Header title="Welcome userFirstName to PlatePlanner!" btn2 = "Logout" btn2Link = "/" />
 
       {/* Navbar */}
       <NavBar active="dashboard" />
@@ -42,9 +42,9 @@ const UserDashBoard = () => {
         {/* Top Left Side */}
         <div className="" style={{ width: "35vw" }}>
 
-          {/* Top Box on Left Side */}
+          {/* Shopping List Box */}
           <div className="flex glass p-5 mb-5 card text-success" style={{ height: "53%", overflow: 'auto' }}>
-            <Link to={'/'} className="text-center text-5xl font-extrabold">Shopping List</Link>
+            <Link to={'/'} className="text-center text-5xl font-extrabold underline">Shopping List</Link>
             <h3 className="text-center text-2xl mt-3 font-semibold">Week 3/5/24 - 3/9/4</h3>
             <ul className="">
               {items.map((item) => (
@@ -67,10 +67,10 @@ const UserDashBoard = () => {
             </ul>
           </div>
 
-          {/* Bottom Box on Left Side */}
-          <div className="glass p-5 card  text-primary" style={{ height: "30%", overflow: 'auto' }}>
-          <Link to={'/'} className="text-center text-5xl font-extrabold">Random Recipe for Today</Link>
-            <h3 className="text-center text-2xl my-2 font-semibold">Buttermilk Fried Chicken</h3>
+          {/* Random Recipe Box */}
+          <div className="glass p-5 card justify-center text-primary" style={{ height: "30%", overflow: 'auto' }}>
+          <Link to={'/showOneRecipe'} className="text-center text-3xl font-extrabold underline">Random Recipe for Today</Link>
+            <h3 className="text-center text-xl my-2 font-semibold">Buttermilk Fried Chicken</h3>
             <p className="text-center mb-5">
               Recipe Calories per Serving: 1,261 || Servings: 8
             </p>
@@ -80,10 +80,9 @@ const UserDashBoard = () => {
           </div>
         </div>
 
-        {/* Right side */}
+        {/* Calendar Box */}
         <div className="card glass p-5" style={{ width: "65%", height: "85%", overflow: 'auto'  }}>
 
-          {/* Right Side Box */}
           <MyWeeklyCalendar />
 
         </div>

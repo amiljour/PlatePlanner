@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import wallpaper from "../assets/wallpaper9.png"
+import chicken from "../assets/buttermilkfriedchicken.png"
 
 const Show1Recipe = () => {
   return (
@@ -12,8 +13,8 @@ const Show1Recipe = () => {
       <div className="flex flex-col items-center text-center mx-16" >
         <h1 className="text-5xl font-extrabold text-secondary glass m-5">Buttermilk Fried Chicken</h1>
         <img
-          src="https://edamam-product-images.s3.amazonaws.com/web-img/3bc/3bce6ee5ba1ed785ac57b55eea406dfc?X-Amz-Security-Token=IQoJb3JpZ2luX2VjECYaCXVzLWVhc3QtMSJGMEQCIDtEJ1ry7BMEr%2FJmx7clLrzlWPoCDW8VnI50r%2FFS3qnMAiAN39H%2F3a5Kw%2FJQhduDJPMdT0uE4WSHbR525BzIAIy7diq5BQgfEAAaDDE4NzAxNzE1MDk4NiIMSZjtltAc9Gc69iuYKpYFTYqp6%2FDB8CxALAkrJ7cpgXXnb6j1cjZBHNkh9ZZ%2FCt0e9LClQPntuLF0RTcRp%2Bo4ss6Aysg7f6errZmhsRlhotrh601jUSLpn0GHWcGSVAU1jbcsKmmhotNxcYF5dccPISgZhuhh2jE2l1W9RWKpCLtMsVAwgKfDCWGQRtX273q03wd3WGKZE7mrKoNSS8CSN2MSznMg9%2FVltdZBXYE%2BeSLM2drPqLy4nLQ41YbTdYc4tI4Q%2BuZ0Gg%2BUvd87Il0jwPI7%2Fs9cO0An4ssjP%2BRWNSb%2BkNYtmnNq9leUiJwej9JDnBaH1nnspYRNtTBjOvcWTiVzbUa9b09A6QqmEz9DKMjkho0B3gIxLHr0JnthO%2Bd7BQeiA4XkXdka9pBbAr%2Fz7%2Bq8tA4p0%2Fispfo8DUBFqNIDczJgVHcHBq%2FMEHzpjgUxjvxqzS%2BJBUXPZ1Mpa9ukPCobOVH%2B7IApWO5rOoS3Nf0lk21sOEQ9KdmovVYKAD7lTG%2BXBERKwWW7GTHZPO2C6%2Fi%2BCoAN%2Bl5L1swkhlsXgfOqyCFSGpiHBCcNBcwYPHneN%2BrOUUZWR6uaCh1ECByj7WmHAv1ZYHnjfmYhHZ22B6PrfFBEgyucE7YDUQQr7LMaDSwtGlSfQswnfiibqDo8YyCYbtBVOi5c0oLL6O8nwoWTCELhhJxZSVHYg%2FVvl2ZraPSoYB4WqXzqcfKQ%2FBr3Ea5MEtaS%2FIoK1rJn8%2FmjmLN4qilSnMuB8G1DXgxIt%2F3pl6yZ1il5%2FtipEbduS%2BLWY7ByU9hY8P2j%2BYJqo9eyjwpeGYXQRN%2FLQj58YuKv7zi6aaJDrGRYNPp7cKPCQ0FZha7RjuodEMbseINZbg1MBiFSJSZhYumbI%2FngKaKdw54xPAzZSaow8PiDrwY6sgH%2Bzs0%2Fx9o7ovZXFVdJjRPXyR%2BNpOzA794pl8mZk62lupLl9cR7Wn5Jwk6ValNmQi5koOBK2hHq1UuMSdyaxzJWKZ353rFnXzkOPY%2BLBuVeHAEY3ST5qu1CfMweeS%2BU%2Fda%2FilHSq2mPApI7vUYG3YFKwGQSJuIk0tHT2N%2FBtH8cxwsQPJuRlJAgyfPXP9GkLL4SDiTCQlWD6JBrj4GiYY5y%2B%2B7afR84yclKeZuoiVPu44iU&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240229T225237Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFABXIEPRF%2F20240229%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=47dc99b2fe5996ba9a4381a134e4d6a7bbe1dd240829506642e66589fe4527fa"
-          alt="ButerMilk Fried Chicken"
+          src={chicken}
+          alt="ButterMilk Fried Chicken"
           style={{ maxHeight: "30vh", maxWidth: "80vw"}}
         />
         <h2 className="mt-5 text-3xl font-extrabold text-success glass">Ingredients:</h2>
